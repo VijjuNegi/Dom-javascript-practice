@@ -1,0 +1,19 @@
+.accordion {
+    background-color: #fff;
+    color: #1f1f1f;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+   font-size: 15px;
+  }
+  
+  
+  .accordionBox {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+  }
+  .block{
+      display: block;
+  }
