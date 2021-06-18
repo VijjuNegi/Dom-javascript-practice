@@ -1,0 +1,30 @@
+body{
+    /* background: grey; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#btn {
+    border-radius: 50%;
+    padding: 30px 30px;
+    height: 30px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    top: 10px;
+    border: 1px solid #1f1f1f;
+}
+.dark-mode{
+   background: #1f1f1f;
+    color: #fff;
+}
+
+.dark-button{
+    background: #1f1f1f;
+    color: #fff;
+    border: 1px solid #f1f1f1 !important;
+}
