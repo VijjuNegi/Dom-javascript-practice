@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+button {
+    background-color: red;
+    position: fixed;
+    top :20px;
+    right: 20px;
+    border: none;
+    color: #fff;
+    padding: 20px;
+    transition: transfrom 0.3s ease-in-out;
+    
+}
+button.active{
+    transform: translateX(-60px);
+}
+nav{
+    background: blue;
+    position: fixed;
+    top : 0;
+    right: 0;
+    height: 100vh;
+    padding: 10px;
+    transform: translateX(100%);
+}
+nav.active{
+    transform: translateX(0);
+}
+
+nav ul{
+    padding: 0;
+    list-style-type: none;
+    margin :0;
+}
+nav ul li{
+    padding: 10px 0;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+
+img{
+    height: 30px;
+    width: 30px;
+}
