@@ -10,3 +10,7 @@ function submitBtn(){
     alert("submit successfully");
 }
 
+function invalidFun(){
+    alert("Enter the value");
+}
+
