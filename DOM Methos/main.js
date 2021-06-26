@@ -15,3 +15,6 @@ console.log(attribute);
 
     let setText = document.getElementsByTagName("p")[0].innerText = "javaScript a best languages";
     console.log(setText);
+
+    let set = document.getElementById("text").innerHTML = "<h1>javascript is a Great language</h1>";
+    console.log(set);
