@@ -1,4 +1,4 @@
-// Dom get methods
+// Dom get methods 
 let textInner = document.getElementById("text").innerText;
 console.log(textInner);
 
@@ -8,3 +8,10 @@ console.log(getAtt);
 
 let attribute = document.getElementById("text").attributes[2].name;
 console.log(attribute);
+
+
+
+// Dom set methods
+
+    let setText = document.getElementsByTagName("p")[0].innerText = "javaScript a best languages";
+    console.log(setText);
