@@ -18,3 +18,8 @@ console.log(attribute);
 
     let set = document.getElementById("text").innerHTML = "<h1>javascript is a Great language</h1>";
     console.log(set);
+
+
+    document.getElementById("text").setAttribute("class", "bgColor");
+    let getatt = document.getElementById("text").getAttribute("class");
+    console.log(getatt);
