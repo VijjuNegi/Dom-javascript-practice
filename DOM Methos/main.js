@@ -29,3 +29,10 @@ console.log(attribute);
         document.querySelector("#text").innerHTML = "<h1>javascript is a Great language</h1>";
         let setAtt = document.querySelector("#text").getAttribute("class");
         console.log(setAtt);
+
+
+// querySelector all
+    let qrySlctor = document.querySelectorAll(".list")[0].innerHTML = "<h1>javascript is a Great language</h1>";
+    document.querySelectorAll("#text").getAttribute("class");
+    document.querySelectorAll(".list")
+    console.log(qrySlctor);
