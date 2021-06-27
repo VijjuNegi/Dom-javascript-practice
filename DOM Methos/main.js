@@ -32,10 +32,10 @@ console.log(attribute);
 
 
 // querySelector all
-    let qrySlctor = document.querySelectorAll(".list")[0].innerHTML = "<h1>javascript is a Great language</h1>";
-    document.querySelectorAll("#text").getAttribute("class");
-    document.querySelectorAll(".list")
-    console.log(qrySlctor);
+    // let qrySlctor = document.querySelectorAll(".list")[0].innerHTML = "<h1>javascript is a Great language</h1>";
+    // document.querySelectorAll("#text").getAttribute("class");
+    // document.querySelectorAll(".list")
+    // console.log(qrySlctor);
 
 
 
@@ -45,3 +45,10 @@ console.log(attribute);
     document.querySelector("#text").style.backgroundColor = "red";
     let bgclr = document.querySelector("#text").getAttribute("style");
     console.log(bgclr);
+
+
+
+//  querySelector style with className
+    document.querySelector("#text").className = "abc xyz";
+    let qSsty = document.querySelector("#text").className;
+    console.log(qSsty);
