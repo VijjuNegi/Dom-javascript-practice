@@ -23,3 +23,9 @@ console.log(attribute);
     document.getElementById("text").setAttribute("class", "bgColor");
     let getatt = document.getElementById("text").getAttribute("class");
     console.log(getatt);
+
+
+// querySelector 
+        document.querySelector("#text").innerHTML = "<h1>javascript is a Great language</h1>";
+        let setAtt = document.querySelector("#text").getAttribute("class");
+        console.log(setAtt);
