@@ -23,3 +23,32 @@ console.log(attribute);
     document.getElementById("text").setAttribute("class", "bgColor");
     let getatt = document.getElementById("text").getAttribute("class");
     console.log(getatt);
+
+
+// querySelector 
+    document.querySelector("#text").innerHTML = "<h1>javascript is a Great language</h1>";
+    let setAtt = document.querySelector("#text").getAttribute("class");
+    console.log(setAtt);
+
+
+// querySelector all
+    // let qrySlctor = document.querySelectorAll(".list")[0].innerHTML = "<h1>javascript is a Great language</h1>";
+    // document.querySelectorAll("#text").getAttribute("class");
+    // document.querySelectorAll(".list")
+    // console.log(qrySlctor);
+
+
+
+// querySelector with style
+    let sty = document.querySelector("#text").style.color;
+    console.log(sty);
+    document.querySelector("#text").style.backgroundColor = "red";
+    let bgclr = document.querySelector("#text").getAttribute("style");
+    console.log(bgclr);
+
+
+
+//  querySelector style with className
+    document.querySelector("#text").className = "abc xyz";
+    let qSsty = document.querySelector("#text").className;
+    console.log(qSsty);
