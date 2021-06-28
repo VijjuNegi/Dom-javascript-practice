@@ -65,3 +65,10 @@ console.log(attribute);
     document.querySelector("#text").classList.add("anyClass", "anyabc");
     let clsAdd = document.querySelector("#text").classList;
     console.log(clsAdd);
+
+
+
+// style with classList.remove
+    document.querySelector("#text").classList.remove("anyClass", "textOne");
+    let clsRemove = document.querySelector("#text").classList;
+    console.log(clsRemove);
