@@ -32,10 +32,10 @@ console.log(attribute);
 
 
 // querySelector all
-    // let qrySlctor = document.querySelectorAll(".list")[0].innerHTML = "<h1>javascript is a Great language</h1>";
-    // document.querySelectorAll("#text").getAttribute("class");
-    // document.querySelectorAll(".list")
-    // console.log(qrySlctor);
+    let qrySlctor = document.querySelectorAll(".list")[0].innerHTML = "<h1>javascript is a Great language</h1>";
+    document.querySelectorAll("#text").getAttribute("class");
+    document.querySelectorAll(".list")
+    console.log(qrySlctor);
 
 
 
@@ -54,8 +54,14 @@ console.log(attribute);
     console.log(qSsty);
 
 
-    // style with classList 
+// style with classList 
 
         document.querySelector("#text").classList = "abcd xyz";
         let clsList = document.querySelector("#text").classList;
         console.log(clsList);
+
+
+// style with classList.add
+    document.querySelector("#text").classList.add("anyClass", "anyabc");
+    let clsAdd = document.querySelector("#text").classList;
+    console.log(clsAdd);
