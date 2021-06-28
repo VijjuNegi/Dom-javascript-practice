@@ -52,3 +52,10 @@ console.log(attribute);
     document.querySelector("#text").className = "abc xyz";
     let qSsty = document.querySelector("#text").className;
     console.log(qSsty);
+
+
+    // style with classList 
+
+        document.querySelector("#text").classList = "abcd xyz";
+        let clsList = document.querySelector("#text").classList;
+        console.log(clsList);
