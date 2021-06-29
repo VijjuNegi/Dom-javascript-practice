@@ -31,11 +31,11 @@ console.log(attribute);
     console.log(setAtt);
 
 
-// querySelector all
-    let qrySlctor = document.querySelectorAll(".list")[0].innerHTML = "<h1>javascript is a Great language</h1>";
-    document.querySelectorAll("#text").getAttribute("class");
-    document.querySelectorAll(".list")
-    console.log(qrySlctor);
+// // querySelector all
+//     let qrySlctor = document.querySelectorAll(".list")[0].innerHTML = "<h1>javascript is a Great language</h1>";
+//     document.querySelectorAll("#text").getAttribute("class");
+//     document.querySelectorAll(".list")
+//     console.log(qrySlctor);
 
 
 
@@ -72,3 +72,11 @@ console.log(attribute);
     document.querySelector("#text").classList.remove("anyClass", "textOne");
     let clsRemove = document.querySelector("#text").classList;
     console.log(clsRemove);
+
+
+
+// Events with classList Add
+    document.querySelector("#text").onmouseenter = anyFun;
+    function anyFun() {
+        document.querySelector("#text").classList.add("bgColor");
+    }
