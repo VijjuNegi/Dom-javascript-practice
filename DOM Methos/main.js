@@ -82,7 +82,20 @@ console.log(attribute);
     }
 
  // Events with classList Remove
-    document.querySelector("#changes").onclick = bgColorFun;
+    document.querySelector("#text").onclick = bgColorFun;
     function bgColorFun() {
-    document.querySelector("#changes").classList.remove("bgColor");
+    document.querySelector("#text").classList.remove("bgColor");
     }
+
+
+
+
+// addEventListener
+    document.querySelector("#text").addEventListener("mouseenter", abcFun);
+    function abcFun() {
+        document.querySelector("#text").classList.add("bgColor", "bgborders");
+    }
+    // sort hand
+    document.querySelector("#text").addEventListener("click", function () {
+         this.classList.remove("bgColor");
+    });
