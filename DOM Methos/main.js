@@ -82,7 +82,7 @@ console.log(attribute);
     }
 
  // Events with classList Remove
-    document.querySelector("#changes").onclick = bgFun;
-    function bgFun() {
+    document.querySelector("#changes").onclick = bgColorFun;
+    function bgColorFun() {
     document.querySelector("#changes").classList.remove("bgColor");
     }
