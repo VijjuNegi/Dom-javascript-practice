@@ -72,3 +72,30 @@ console.log(attribute);
     document.querySelector("#text").classList.remove("anyClass", "textOne");
     let clsRemove = document.querySelector("#text").classList;
     console.log(clsRemove);
+
+
+
+// Events with classList Add
+    document.querySelector("#text").onmouseenter = anyFun;
+    function anyFun() {
+        document.querySelector("#text").classList.add("bgColor");
+    }
+
+ // Events with classList Remove
+    document.querySelector("#text").onclick = bgColorFun;
+    function bgColorFun() {
+    document.querySelector("#text").classList.remove("bgColor");
+    }
+
+
+
+
+// addEventListener
+    document.querySelector("#text").addEventListener("mouseenter", abcFun);
+    function abcFun() {
+        document.querySelector("#text").classList.add("bgColor", "bgborders");
+    }
+    // sort hand
+    document.querySelector("#text").addEventListener("click", function () {
+         this.classList.remove("bgColor");
+    });
