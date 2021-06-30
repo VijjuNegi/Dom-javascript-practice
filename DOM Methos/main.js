@@ -99,3 +99,9 @@ console.log(attribute);
     document.querySelector("#text").addEventListener("click", function () {
          this.classList.remove("bgColor");
     });
+
+
+// addEventListener classList Toggle
+    document.querySelector("#text").addEventListener("click", function () {
+        this.classList.toggle("bgColor");
+    })
