@@ -105,3 +105,7 @@ console.log(attribute);
     document.querySelector("#text").addEventListener("click", function () {
         this.classList.toggle("bgColor");
     })
+ 
+// classList length
+        let clsListLength = document.querySelector("#text").classList.length;
+        console.log(clsListLength);    
