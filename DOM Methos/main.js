@@ -106,6 +106,11 @@ console.log(attribute);
         this.classList.toggle("bgColor");
     })
  
-// classList length
-        let clsListLength = document.querySelector("#text").classList.length;
-        console.log(clsListLength);    
+// addEventListener classList length
+    let clsListLength = document.querySelector("#text").classList.length;
+    console.log(clsListLength); 
+    
+    
+// classList item
+    let clsListItem = document.querySelector("#text").classList.item(2);
+    console.log(clsListItem);
