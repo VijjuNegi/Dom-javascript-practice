@@ -114,3 +114,9 @@ console.log(attribute);
 // classList item
     let clsListItem = document.querySelector("#text").classList.item(2);
     console.log(clsListItem);
+
+
+
+// class List contains
+    let clsListConts = document.querySelector("#text").classList.contains("abc");
+    console.log(clsListConts);
