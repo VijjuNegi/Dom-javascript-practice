@@ -1,0 +1,16 @@
+#outer{
+    background:blue;
+padding:  40px;
+}
+#inner{
+    background: yellow;
+    padding: 40px;
+}
+.innerBox{
+    background: #1f1f1f;
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    width: 15%;
+
+}
