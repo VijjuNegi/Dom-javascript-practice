@@ -13,3 +13,6 @@ console.log(cldn);
 // firstElementChild & lastElementChild
 let fstElecld = document.querySelector("#outer").firstElementChild.style.background = "#5f5f5f";
 console.log(fstElecld);
+
+let fstEleclds = document.querySelector("#inner").lastElementChild.style.background = "#5f5f5f";
+console.log(fstEleclds);
