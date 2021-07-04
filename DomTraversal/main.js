@@ -20,3 +20,8 @@ console.log(fstElecld);
 
 let fstEleclds = document.querySelector("#inner").lastElementChild.style.background = "#5f5f5f";
 console.log(fstEleclds);
+
+
+// nextSibling & previousSibling
+let nxtsbling = document.querySelector("#child-c").nextElementSibling;
+console.log(nxtsbling);
