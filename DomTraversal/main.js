@@ -20,3 +20,15 @@ console.log(fstElecld);
 
 let fstEleclds = document.querySelector("#inner").lastElementChild.style.background = "#5f5f5f";
 console.log(fstEleclds);
+
+
+// nextSibling & previousSibling
+let nxtsbling = document.querySelector("#child-c").nextElementSibling;
+console.log(nxtsbling);
+let nxtsbling = document.querySelector("#child-c").previousSibling;
+console.log(nxtsbling);
+
+
+// Dom Append Methods
+let elementTag = document.createElement("h2");
+console.log(elementTag);
