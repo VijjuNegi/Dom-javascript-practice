@@ -25,3 +25,5 @@ console.log(fstEleclds);
 // nextSibling & previousSibling
 let nxtsbling = document.querySelector("#child-c").nextElementSibling;
 console.log(nxtsbling);
+let nxtsbling = document.querySelector("#child-c").previousSibling;
+console.log(nxtsbling);
