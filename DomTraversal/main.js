@@ -40,3 +40,7 @@ console.log(newText);
 
 let newComment = document.createComment("this is just a comment");
 console.log(newComment);
+
+
+elementTag.appendChild(newText);
+document.querySelector("#inner").appendChild(elementTag);
