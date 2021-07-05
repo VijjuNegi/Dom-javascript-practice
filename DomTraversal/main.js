@@ -32,3 +32,7 @@ console.log(nxtsbling);
 // Dom Append Methods
 let elementTag = document.createElement("h2");
 console.log(elementTag);
+
+
+let newText = document.createTextNode("JavaScript is great languages");
+console.log(newText);
