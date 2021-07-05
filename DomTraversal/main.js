@@ -36,3 +36,7 @@ console.log(elementTag);
 
 let newText = document.createTextNode("JavaScript is great languages");
 console.log(newText);
+
+
+let newComment = document.createComment("this is just a comment");
+console.log(newComment);
