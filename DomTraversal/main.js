@@ -44,3 +44,9 @@ console.log(newComment);
 
 elementTag.appendChild(newText);
 document.querySelector("#inner").appendChild(elementTag);
+
+
+
+let target = document.querySelector("#inner");
+target.insertBefore(elementTag,target.childNodes[0]);
+console.log(target);
