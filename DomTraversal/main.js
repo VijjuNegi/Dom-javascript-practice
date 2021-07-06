@@ -61,6 +61,6 @@ newElement.appendChild(newText);
 
 let target = document.querySelector("#test");
   
-// target.insertAdjacentElement("beforebegin", newElement);
+target.insertAdjacentElement("beforebegin", newElement);
 target.insertAdjacentElement("afterbegin" , newElement);
 console.log(target);
