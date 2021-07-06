@@ -1,60 +1,66 @@
-// parentElement
-let prnt = document.querySelector("#child-c").parentElement.style.background="red";
-console.log(prnt);
+// // parentElement
+// let prnt = document.querySelector("#child-c").parentElement.style.background="red";
+// console.log(prnt);
 
 
 
-// children & childNodes
-let cldn = document.querySelector("#inner").children[1];
-document.querySelector("#inner").children[1].style.background = "#5f5f5f";
-console.log(cldn);
+// // children & childNodes
+// let cldn = document.querySelector("#inner").children[1];
+// document.querySelector("#inner").children[1].style.background = "#5f5f5f";
+// console.log(cldn);
 
-let cldn = document.querySelector("#inner").childNodes[5].style.background = "#5f5f5f";
-document.querySelector("#inner").childNodes[1].style.background = "#5f5f5f";
-console.log(cldn);
-
-
-// firstElementChild & lastElementChild
-let fstElecld = document.querySelector("#outer").firstElementChild.style.background = "#5f5f5f";
-console.log(fstElecld);
-
-let fstEleclds = document.querySelector("#inner").lastElementChild.style.background = "#5f5f5f";
-console.log(fstEleclds);
+// let cldn = document.querySelector("#inner").childNodes[5].style.background = "#5f5f5f";
+// document.querySelector("#inner").childNodes[1].style.background = "#5f5f5f";
+// console.log(cldn);
 
 
-// nextSibling & previousSibling
-let nxtsbling = document.querySelector("#child-c").nextElementSibling;
-console.log(nxtsbling);
-let nxtsbling = document.querySelector("#child-c").previousSibling;
-console.log(nxtsbling);
+// // firstElementChild & lastElementChild
+// let fstElecld = document.querySelector("#outer").firstElementChild.style.background = "#5f5f5f";
+// console.log(fstElecld);
+
+// let fstEleclds = document.querySelector("#inner").lastElementChild.style.background = "#5f5f5f";
+// console.log(fstEleclds);
 
 
-// Dom Append Methods
-let elementTag = document.createElement("h2");
-console.log(elementTag);
+// // nextSibling & previousSibling
+// let nxtsbling = document.querySelector("#child-c").nextElementSibling;
+// console.log(nxtsbling);
+// let nxtsbling = document.querySelector("#child-c").previousSibling;
+// console.log(nxtsbling);
 
 
-let newText = document.createTextNode("JavaScript is great languages");
-console.log(newText);
+// // Dom Append Methods
+// let elementTag = document.createElement("h2");
+// console.log(elementTag);
 
 
-let newComment = document.createComment("this is just a comment");
-console.log(newComment);
+// let newText = document.createTextNode("JavaScript is great languages");
+// console.log(newText);
 
 
-elementTag.appendChild(newText);
-document.querySelector("#inner").appendChild(elementTag);
+// let newComment = document.createComment("this is just a comment");
+// console.log(newComment);
+
+
+// elementTag.appendChild(newText);
+// document.querySelector("#inner").appendChild(elementTag);
 
 
 
-let target = document.querySelector("#inner");
-target.insertBefore(elementTag,target.childNodes[0]);
-console.log(target);
+// let target = document.querySelector("#inner");
+// target.insertBefore(elementTag,target.childNodes[0]);
+// console.log(target);
 
 
 
 
 // insertAdjacentElement
 let newElement = document.createElement("h2");
- let newText = document.createTextNode("java script a best languages");
-  newElement.appendChild(newText);
+let newText = document.createTextNode("java script a best languages");
+newElement.appendChild(newText);
+
+let target = document.querySelector("#test");
+  
+// target.insertAdjacentElement("beforebegin", newElement);
+target.insertAdjacentElement("afterbegin" , newElement);
+console.log(target);
