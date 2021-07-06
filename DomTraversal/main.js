@@ -50,3 +50,11 @@ document.querySelector("#inner").appendChild(elementTag);
 let target = document.querySelector("#inner");
 target.insertBefore(elementTag,target.childNodes[0]);
 console.log(target);
+
+
+
+
+// insertAdjacentElement
+let newElement = document.createElement("h2");
+ let newText = document.createTextNode("java script a best languages");
+  newElement.appendChild(newText);
