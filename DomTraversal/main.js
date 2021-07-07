@@ -64,3 +64,21 @@ let target = document.querySelector("#test");
 target.insertAdjacentElement("beforebegin", newElement);
 target.insertAdjacentElement("afterbegin" , newElement);
 console.log(target);
+
+
+
+  // insertAdjacentHTML
+
+ let target = document.querySelector("#test");
+ let newHtml = "<h2>java script is great languages</h2>"
+ target.insertAdjacentHTML("beforeend", newHtml);
+//  target.insertAdjacentHTML("afterEnd", newHtml);
+ console.log(target);
+
+
+
+ // insertAdjacentText
+ let target = document.querySelector("#test");
+ let newText = "JavaScript is a best";
+ target.insertAdjacentText("beforeend", newText);
+ console.log(target);
