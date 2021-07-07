@@ -64,3 +64,38 @@ let target = document.querySelector("#test");
 target.insertAdjacentElement("beforebegin", newElement);
 target.insertAdjacentElement("afterbegin" , newElement);
 console.log(target);
+
+
+
+  // insertAdjacentHTML
+
+ let target = document.querySelector("#test");
+ let newHtml = "<h2>java script is great languages</h2>"
+ target.insertAdjacentHTML("beforeend", newHtml);
+//  target.insertAdjacentHTML("afterEnd", newHtml);
+ console.log(target);
+
+
+
+ // insertAdjacentText
+ let target = document.querySelector("#test");
+ let newText = "JavaScript is a best";
+ target.insertAdjacentText("beforeend", newText);
+ console.log(target);
+
+
+
+ // replaceChild & removeChild
+let newElement = document.createElement("li");
+let newText = document.createTextNode("Guava");
+
+newElement.appendChild(newText);
+
+let target = document.querySelector("#list");
+let oldElement = target.children[2];
+target.replaceChild(newElement,oldElement);
+
+
+let target = document.querySelector("#list");
+let oldElement = target.children[3];
+target.removeChild(oldElement);
