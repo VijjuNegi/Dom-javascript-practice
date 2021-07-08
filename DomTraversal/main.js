@@ -117,3 +117,10 @@ let target = document.querySelector("#testPrgph");
 
 let find = parentElement.contains(target);
 console.log(find);
+
+
+
+// hasAttribute
+let hasAtt =  document.querySelector("#test");
+let target = hasAtt.hasAttribute("class");
+console.log(target);
