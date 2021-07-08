@@ -99,3 +99,28 @@ target.replaceChild(newElement,oldElement);
 let target = document.querySelector("#list");
 let oldElement = target.children[3];
 target.removeChild(oldElement);
+
+
+
+// cloneNode
+let target = document.querySelector("#list").children[1];
+let cpyElement = target.cloneNode(true);
+
+document.querySelector("#listOne").appendChild(cpyElement);
+
+
+
+
+// contains
+let parentElement = document.querySelector("#test");
+let target = document.querySelector("#testPrgph");
+
+let find = parentElement.contains(target);
+console.log(find);
+
+
+
+// hasAttribute
+let hasAtt =  document.querySelector("#test");
+let target = hasAtt.hasAttribute("class");
+console.log(target);
