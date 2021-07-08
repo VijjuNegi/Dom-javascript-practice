@@ -99,3 +99,11 @@ target.replaceChild(newElement,oldElement);
 let target = document.querySelector("#list");
 let oldElement = target.children[3];
 target.removeChild(oldElement);
+
+
+
+// cloneNode
+let target = document.querySelector("#list").children[1];
+let cpyElement = target.cloneNode(true);
+
+document.querySelector("#listOne").appendChild(cpyElement);
