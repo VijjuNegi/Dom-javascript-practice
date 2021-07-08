@@ -107,3 +107,13 @@ let target = document.querySelector("#list").children[1];
 let cpyElement = target.cloneNode(true);
 
 document.querySelector("#listOne").appendChild(cpyElement);
+
+
+
+
+// contains
+let parentElement = document.querySelector("#test");
+let target = document.querySelector("#testPrgph");
+
+let find = parentElement.contains(target);
+console.log(find);
