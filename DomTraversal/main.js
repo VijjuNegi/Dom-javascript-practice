@@ -124,3 +124,17 @@ console.log(find);
 let hasAtt =  document.querySelector("#test");
 let target = hasAtt.hasAttribute("class");
 console.log(target);
+
+
+
+// hasChildNodes
+let hasAttNds =  document.querySelector("#test");
+let target = hasAttNds.hasChildNodes();
+console.log(target);
+
+
+// isEqualNode
+let targetOne = document.querySelector("#list").children[0];
+let targetTwo = document.querySelector("#listOne").children[2];
+let equal = targetOne.isEqualNode(targetTwo);
+console.log(equal);
