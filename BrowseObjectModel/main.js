@@ -6,3 +6,9 @@ console.log(iHeight);
 // OuterHeight
 const oHeight = window.outerHeight;
 console.log(oHeight);
+
+
+// Open Windows
+function openWindows(){
+    window.open()
+}
