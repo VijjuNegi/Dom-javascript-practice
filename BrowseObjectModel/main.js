@@ -10,5 +10,5 @@ console.log(oHeight);
 
 // Open Windows
 function openWindows(){
-    window.open()
+    window.open("https://www.google.com/");
 }
