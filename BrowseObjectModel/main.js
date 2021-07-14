@@ -26,3 +26,13 @@ function openHeightWidth(){
 function closeWindow(){
     windows.close();
 }
+
+// move Window
+var mywindows;
+function openWindows(){
+    mywindows = window.open("","","width=600px,Height=300px,left=500px,top=300px");
+    mywindows.document.write("<p>Hello jaaScript</p>");
+}
+function moveWindows(){
+    mywindows.moveTo(100,100);
+}
