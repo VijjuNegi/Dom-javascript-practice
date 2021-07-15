@@ -46,3 +46,13 @@ function openWindows(){
 function moveWindows(){
     mywindows.moveBy(100,100);
 }
+
+
+// resize Windows
+function resizeWindows(){
+    mywindows.resizeTo(400,400);
+}
+
+function resizeByWindows(){
+    mywindows.resizeBy(400,400);
+}
