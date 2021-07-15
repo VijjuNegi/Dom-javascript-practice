@@ -52,3 +52,7 @@ function moveWindows(){
 function resizeWindows(){
     mywindows.resizeTo(400,400);
 }
+
+function resizeByWindows(){
+    mywindows.resizeBy(400,400);
+}
