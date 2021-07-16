@@ -56,3 +56,10 @@ function resizeWindows(){
 function resizeByWindows(){
     mywindows.resizeBy(400,400);
 }
+
+
+//scrollToWindows
+
+function scrollToWindows(){
+    window.scrollBy(0,20);
+}
