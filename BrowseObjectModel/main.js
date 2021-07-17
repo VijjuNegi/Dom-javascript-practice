@@ -71,4 +71,4 @@ function scrollToWindows(){
 
 // file location
 document.write(location);
-
+document.write(location.host);
