@@ -60,6 +60,15 @@ function resizeByWindows(){
 
 //scrollToWindows
 
-function scrollToWindows(){
+function scrollByWindows(){
     window.scrollBy(0,20);
 }
+
+
+function scrollToWindows(){
+    window.scrollTo(0,0);
+}
+
+// file location
+document.write(location);
+
