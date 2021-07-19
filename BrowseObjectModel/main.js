@@ -69,6 +69,9 @@ function scrollToWindows(){
     window.scrollTo(0,0);
 }
 
-// file location
+// file location 
 document.write(location);
 document.write(location.host);
+document.write(location.href);
+document.write(location.port);
+
