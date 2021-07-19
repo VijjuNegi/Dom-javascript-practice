@@ -73,3 +73,5 @@ function scrollToWindows(){
 document.write(location);
 document.write(location.host);
 document.write(location.href);
+document.write(location.port);
+
