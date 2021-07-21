@@ -79,3 +79,4 @@ document.write(location.protocol);
 
 
 console.log(history);
+console.log(history.length);
