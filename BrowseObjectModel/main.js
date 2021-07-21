@@ -78,3 +78,4 @@ document.write(location.hostname);
 document.write(location.protocol);
 
 
+console.log(history);
