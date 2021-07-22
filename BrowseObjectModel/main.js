@@ -80,3 +80,11 @@ document.write(location.protocol);
 
 console.log(history);
 console.log(history.length);
+
+function backFunction(){
+    history.back();
+}
+
+function forwardFunction(){
+    history.forward();
+}
