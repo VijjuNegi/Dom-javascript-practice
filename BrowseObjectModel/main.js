@@ -88,3 +88,11 @@ function backFunction(){
 function forwardFunction(){
     history.forward();
 }
+
+function goFunction(){
+    history.go(1);
+}
+
+function goBackFunction(){
+    history.go(-1);
+}
