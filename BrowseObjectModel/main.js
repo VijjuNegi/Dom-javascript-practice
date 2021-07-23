@@ -92,3 +92,7 @@ function forwardFunction(){
 function goFunction(){
     history.go(1);
 }
+
+function goBackFunction(){
+    history.go(-1);
+}
