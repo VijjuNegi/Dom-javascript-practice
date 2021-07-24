@@ -76,6 +76,8 @@ document.write(location.href);
 document.write(location.port);
 document.write(location.hostname);
 document.write(location.protocol);
+document.write(location.hash);
+document.write(location.search);
 
 
 console.log(history);
