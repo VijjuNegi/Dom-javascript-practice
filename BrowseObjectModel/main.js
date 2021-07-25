@@ -102,3 +102,7 @@ function goBackFunction(){
 function hrefFunction(){
     location.href = "https://www.google.com/";
 }
+
+function reloadFunction(){
+    location.reload();
+}
