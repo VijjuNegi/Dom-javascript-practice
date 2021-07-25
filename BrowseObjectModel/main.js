@@ -98,3 +98,11 @@ function goFunction(){
 function goBackFunction(){
     history.go(-1);
 }
+
+function hrefFunction(){
+    location.href = "https://www.google.com/";
+}
+
+function reloadFunction(){
+    location.reload();
+}
