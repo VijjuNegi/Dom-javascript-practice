@@ -106,3 +106,11 @@ function hrefFunction(){
 function reloadFunction(){
     location.reload();
 }
+
+function assignFunction(){
+    location.assign("https://www.google.com/");
+}
+
+function replaceFunction(){
+    location.replace("https://www.google.com/");
+}
