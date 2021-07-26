@@ -110,3 +110,7 @@ function reloadFunction(){
 function assignFunction(){
     location.assign("https://www.google.com/");
 }
+
+function replaceFunction(){
+    location.replace("https://www.google.com/");
+}
